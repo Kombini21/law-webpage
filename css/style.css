@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: "Loew";
+    src: url(../fonts/Loew-Bold.otf);
+}
+@font-face {
+    font-family: "lib";
+    src: url(../fonts/Libertad-Office.otf);
+}
+body{
+    background-color: rgb(39, 39, 39);
+    height: 2000px;
+    margin: 0px;
+}
+
+
+.head{
+    display: flex;
+    border: 1px solid red;
+    background-color: rgb(47, 47, 47);
+    gap: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.head p{
+    color:white;
+    font-family: 'lib', Courier, monospace;
+}
+
+.head .nome{
+    color: white;
+    font-family: 'Loew', Courier, monospace;
+}
+
+.head button{
+
+    color: rgb(94, 9, 23);
+    background-color: gold;
+}
+
+
+
+.head2{
+    display: flex;
+    position: relative;
+    top: 33px;
+    border: 1px solid red;
+    gap: 80px;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 217, 67, 0.342);
+    height: 80px;
+    
+}
+
+.links-header{
+    font-size: 16px;
+    color: white;
+    font-family: 'Loew', Courier, monospace;
+}
+
+
+
+
+.box-content1{
+
+    border: 1px solid red;
+    display: flex;
+    position: relative;
+    top: 32px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1{
+    border: 1px solid red;
+    height: 500px;
+    width: 650px;
+
+}
+.content2{
+    border: 1px solid red;
+    height: 500px;
+    width: 650px;
+}
+
+
+
+
+
+
