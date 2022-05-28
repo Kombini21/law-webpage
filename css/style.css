@@ -57,10 +57,11 @@ body{
 button{
     font-size: 23px;
     background-color: #F7B93A;
-    height: 130px;
-    width: 180px;
+    height: 150px;
+    width: 200px;
     border-radius: 25px;
     border: white solid 0px;
+    margin-top: 40px;
 }
 
 
@@ -93,8 +94,15 @@ p{
 
 
 .n1{
-    font-size: 17px;
+    font-size: 16px;
     color: white;
     margin-bottom: 2px;
     margin-top: 2px;
+}
+
+.btbt{
+
+    margin-top: 40px;
+
+
 }
