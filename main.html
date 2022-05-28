@@ -9,6 +9,17 @@
 </head>
 <body>
 
+
+    <script>
+        function submitWpp() {
+            let a = document.getElementById("user");
+
+            window.location.href = "http://google.com/" + user.value;
+        }
+
+    </script>
+
+
     <div class="head">
 
         <p class="nome"><strong> GEAN REIS ADVOCACIA </strong></p>
@@ -21,22 +32,41 @@
 
     <div class="buttons1">
 
-        <button type="button" class="button1" value="form" ><p>Direito do trabalho</p></button>
-        <button type="button" class="button1" value="form" ><p>Direito Bancário</p></button>
-        <button type="button" class="button1" value="form" ><p>Direito do Consumidor</p></button>
-        <button type="button" class="button1" value="form" ><p>Direito de Família</p></button>
-        <button type="button" class="button1" value="form" ><p>Planejamento sucessório</p></button>
+        <button type="button" class="button1" value="form1" ><p>Direito do trabalho</p></button>
+        <button type="button" class="button1" value="form2" ><p>Direito Bancário</p></button>
+        <button type="button" class="button1" value="form3" ><p>Direito do Consumidor</p></button>
+        <button type="button" class="button1" value="form4" ><p>Direito de Família</p></button>
+        <button type="button" class="button1" value="form5" ><p>Planejamento sucessório</p></button>
         
     </div>
 
     <div class="buttons2">
 
-        <button type="button" class="button2" value="form" ><p>Direito Empresarial</p></button>
-        <button type="button" class="button2" value="form" ><p>Direito Tributário</p></button>
-        <button type="button" class="button2" value="form" ><p>Elaboração de contratos</p></button>
-        <button type="button" class="button2" value="form" ><p>Direito Agrário</p></button>
-        <button type="button" class="button2" value="form" ><p>Ações Possesórias</p></button>
+        <button type="button" class="button2" value="form6" ><p>Direito Empresarial</p></button>
+        <button type="button" class="button2" value="form7" ><p>Direito Tributário</p></button>
+        <button type="button" class="button2" value="form8" ><p>Elaboração de contratos</p></button>
+        <button type="button" class="button2" value="form9" ><p>Direito Agrário</p></button>
+        <button type="button" class="button2" value="form10" ><p>Ações Possesórias</p></button>
         
+    </div>
+
+    <div class="formm">
+
+        
+        <form class= "forma" onsubmit="submitWpp(); return false;">
+            <p class="n1">Nome:</p>
+            <input type="text" id="nome">
+            <br>
+            <p class="n1"> Telefone para contato:</p>
+            <input type="text" id="telefone">
+            <br>
+            <p class="n1"> Informações:</p>
+            <textarea name = "message" rows="11" cols="25" id="user"></textarea>
+            <br>
+            <input class="inputi" type="submit" value="Submit"/>
+        </form>
+
+
     </div>
 
 
@@ -44,10 +74,9 @@
 
 
 
+<!-- Tenho que no head 2, colocar pra direita, e a logo na esquerda
 
-
-
-<!-- Tenho que no head 2, colocar pra direita, e a logo na esquerda-->
+-->
 
 
     
