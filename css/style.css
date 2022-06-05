@@ -8,10 +8,16 @@
     src: url(../fonts/Libertad-Office.otf);
 }
 body{
-    background-color: rgb(39, 39, 39);
+    background-color: #100549;
     margin: 0px;
 }
 
+.rodape {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+}
 
 .head{
     display: flex;
@@ -21,16 +27,17 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    height: 75px;
+    height: 100px;
     justify-content: center;
     align-items: center;
     z-index: 1000;
     padding: 5px;
+    
 }
 
 .head p{
 
-    color: #F7B93A;
+    color: white;
     font-family: 'lib', Courier, monospace;
 }
 
@@ -50,7 +57,7 @@ body{
 .head button{
 
     color: rgb(94, 9, 23);
-    background-color: gold;
+    background-color: white;
 }
 
 
@@ -59,14 +66,14 @@ body{
 
 
     display: flex;
-    margin-top: 70px;
+    margin-top: 100px;
     justify-content: center;
     gap: 20px;  
 }
 
 button{
     font-size: 23px;
-    background-color: #F7B93A;
+    background-color: white;
     height: 150px;
     width: 200px;
     border-radius: 25px;
@@ -77,7 +84,7 @@ button{
 
 .buttons2{
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
     justify-content: center;
     gap: 20px;
 }
@@ -117,9 +124,50 @@ p{
 
 }
 
+.logoss{
+
+    display: flex;
+    gap: 20px;
+    
+}
+
+.roda{
+
+    font-family: 'lib', Courier, monospace;
+    color: white;
+    display: flex;
+    gap: 20px;
+    
+}
+
 
 
 @media only screen and (max-width: 740px) {
+
+
+
+    .head{
+
+        display: flex;
+        background-color: #100549;
+        gap: 25px;
+        position:relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+        padding: 5px;
+    }
+
+    .boxlogo{
+
+        height: 185px;
+    }
+
+
 
     .buttons1,
     .buttons2{
@@ -131,13 +179,22 @@ p{
 
     button{
         font-size: 23px;
-        background-color: #F7B93A;
+        background-color: white;
         height: 100px;
         width: 150px;
         border-radius: 25px;
         border: white solid 0px;
         margin-top: 40px;
     }
+
+    .rodape{
+
+        
+    }
+
+    .logoss
+
+
 
 }
 
