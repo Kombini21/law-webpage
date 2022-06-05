@@ -15,7 +15,7 @@ body{
 
 .head{
     display: flex;
-    background-color: rgb(255, 255, 255);
+    background-color: #100549;
     gap: 25px;
     position: fixed;
     top: 0;
@@ -29,17 +29,20 @@ body{
 }
 
 .head p{
+
     color: #F7B93A;
     font-family: 'lib', Courier, monospace;
 }
 
 .boxlogo{
-    margin-top: 11px;
-    align-self: center ;
+
+    align-self: center;
 
 }
 
 .head .nome{
+
+
     color: white;
     font-family: 'Loew', Courier, monospace;
 }
@@ -53,11 +56,12 @@ body{
 
 
 .buttons1{
+
+
     display: flex;
     margin-top: 70px;
     justify-content: center;
-    gap: 20px;
-    
+    gap: 20px;  
 }
 
 button{
