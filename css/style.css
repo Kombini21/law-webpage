@@ -22,12 +22,11 @@ body{
     display: flex;
     background-color: #100549;
     gap: 25px;
-    top: 10px;
+    margin-top: 15px;
     left: 0;
     right: 0;
-    height: 130px;
+    height: 165px;
     justify-content: center;
-    align-items: center;
     padding: 5px;
     
 }
@@ -40,7 +39,7 @@ body{
 
 .boxlogo{
 
-    align-self: center;
+    align-self: flex-end;
 
 }
 
@@ -73,6 +72,7 @@ body{
 .lines1,
 .lines2{
 
+    margin-top: 13px;
     align-self: center;
     color: white;
     font-family: 'lib', Courier, monospace;
@@ -82,7 +82,7 @@ body{
 
 .lines2{
 
-    margin-top: 5px;
+    margin-top: 0px;
     color:#100549;
     background-color: white;
     padding: 5px;
@@ -105,8 +105,8 @@ body{
 button{
     font-size: 23px;
     background-color: white;
-    height: 130px;
-    width: 180px;
+    height: 125px;
+    width: 175px;
     border-radius: 25px;
     border: white solid 0px;
     margin-top: 15px;
@@ -157,6 +157,7 @@ p{
 
 .logoss{
 
+
     display: flex;
     gap: 20px;
     
@@ -169,6 +170,12 @@ p{
     display: flex;
     gap: 20px;
     
+}
+
+.rodape{
+    margin-top: 20px;
+
+
 }
 
 
@@ -195,7 +202,8 @@ p{
 
     .boxlogo{
 
-        height: 185px;
+        height: 195px;
+        text-align: center;
     }
 
 
@@ -211,25 +219,37 @@ p{
     button{
         font-size: 23px;
         background-color: white;
-        height: 100px;
-        width: 150px;
+        height: 140px;
+        width: 260px;
         border-radius: 25px;
         border: white solid 0px;
-        margin-top: 40px;
+        margin-top: 5px;
     }
 
-    .rodape{
+    .lines1{
 
+        margin-top: 25px;
+        text-align: center;
+        font-size: 22px;
         
+
+
     }
 
-    .logoss
+    .lines2{
+
+        margin-top: 30px;
+        margin-bottom: 50px;
+        height: 80px;
+        font-size: 28px;
+        padding-top: 15px;
+    }
+
+    .ffc,
+    .fccc{
 
 
+        height: 60px;
 
+    }
 }
-
-    
-
-
-
