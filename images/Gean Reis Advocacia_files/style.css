@@ -12,34 +12,10 @@ body{
     margin: 0px;
 }
 
-
-.whatline{
-
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    margin-top: 0px;
-    color: white;
-    background-color: #1CE656;
-    padding: 13px;
-    border-radius: 10px;
-    width: 370px;
-    gap: 10px;
-    text-align: center;
-    height: 35px;
-
-}
 .rodape {
     display: flex;
     justify-content: center;
     margin-top: 40px;
-}
-
-.whatss{
-    
-    
-    height: 30px;
-    
 }
 
 .head{
@@ -101,7 +77,13 @@ body{
 
 .lines2{
 
-    
+    margin-top: 0px;
+    color: white;
+    background-color: #1CE656;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
 
 
 }
