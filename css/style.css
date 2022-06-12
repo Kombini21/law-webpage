@@ -23,10 +23,10 @@ body{
     background-color: #1CE656;
     padding: 13px;
     border-radius: 10px;
-    width: 370px;
+    width: 200px;
     gap: 10px;
     text-align: center;
-    height: 35px;
+    height: 30px;
 
 }
 .rodape {
@@ -60,6 +60,7 @@ body{
 .boxlogo{
 
     align-self: flex-end;
+    margin-right: 35px;
 
 }
 
@@ -89,22 +90,27 @@ body{
 }
 
 .lines1,
-.lines2{
+.lines2,
+.lines3{
 
     
     align-self: center;
     color: white;
     font-family: 'lib', Courier, monospace;
-
+    margin-bottom: 5px;
+    margin-top: 10px;
 
 }
 
+.lines1{
+
+    margin-bottom: 20px;
+}
 .lines2{
 
-    
-
-
+    margin-top: 6px;
 }
+
 
 .buttons1{
 
@@ -227,6 +233,10 @@ p{
 
 
 
+    .whatline{
+
+        margin-bottom: 30px;
+    }
     .buttons1,
     .buttons2{
 
@@ -258,11 +268,8 @@ p{
 
     .lines2{
 
-        margin-top: 30px;
-        margin-bottom: 50px;
-        height: 80px;
-        font-size: 28px;
-        padding-top: 15px;
+        
+        font-size: 22px;
         
     }
 
