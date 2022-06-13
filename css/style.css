@@ -13,6 +13,8 @@ body{
 }
 
 
+
+
 .whatline{
 
     display: flex;
@@ -24,9 +26,9 @@ body{
     padding: 13px;
     border-radius: 10px;
     width: 200px;
-    gap: 10px;
+    gap: 5px;
     text-align: center;
-    height: 30px;
+    height: 20px;
 
 }
 .rodape {
@@ -39,7 +41,7 @@ body{
     
     
     height: 30px;
-    
+    margin-top: -4px;
 }
 
 .head{
@@ -47,7 +49,6 @@ body{
 
     display: flex;
     background-color: #100549;
-    margin-top: 15px;
     justify-content: center; 
 }
 
@@ -62,6 +63,82 @@ body{
     align-self: flex-end;
     margin-right: 35px;
 
+}
+
+
+
+.cont1{
+
+
+    margin-top: 30px;
+    display:flex;
+    gap:40px;
+    justify-content: center;
+}
+
+.cline1{
+
+    
+    text-align: center;
+    color: white;
+    font-family: 'lib', Courier, monospace;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+ul {
+
+    text-align: center;
+    list-style-position: inside;
+    padding-inline-start: 0;
+    list-style: none;
+    margin-top: 0px;
+
+}
+
+li {
+
+    margin-top: 3px;
+}
+
+.cline2{
+
+    text-align: center;
+    color: white;
+    font-family: 'lib', Courier, monospace;
+}
+
+.cline3{
+
+    margin-top: -10px;
+    text-align: center;
+    color: white;
+    font-family: 'lib', Courier, monospace;
+    border: 1.5px white solid;
+    border-radius: 20px;
+    width: 340px;
+    align-self: center;
+
+    
+}
+
+.cont1-cont1,
+.cont1-cont2{
+
+    background-color: #96c0e211;
+    width: 400px;
+    height: 330px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.image-ct1{
+    align-self: center;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 25px;
 }
 
 .head .nome{
@@ -203,6 +280,29 @@ p{
     height: 130px;
 }
 
+.whatline:hover{
+
+    
+    padding: 14px;
+    font-size: 1.05em;
+    
+}
+
+.whatline2{
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 0px;
+    color: white;
+    border: white solid 2px;
+    padding: 13px;
+    border-radius: 10px;
+    width: 300px;
+    gap: 5px;
+    text-align: center;
+    height: 20px;
+}
 
 
 @media only screen and (max-width: 740px) {
@@ -228,7 +328,6 @@ p{
         height: 120px;
         text-align: center;
         margin-right: 20px;
-        width: 360px;
     }
 
 
